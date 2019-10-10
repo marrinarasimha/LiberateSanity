@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/namarri/Desktop/SeleniumFiles/selenium-server-standalone-3.141.59 (1).jar"/>
+	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/namarri/Desktop/SeleniumFiles/poi-bin-3.11-20141221/poi-3.11/poi-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/namarri/Desktop/SeleniumFiles/poi-bin-3.11-20141221/poi-3.11/poi-examples-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/namarri/Desktop/SeleniumFiles/poi-bin-3.11-20141221/poi-3.11/poi-excelant-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/namarri/Desktop/SeleniumFiles/poi-bin-3.11-20141221/poi-3.11/poi-ooxml-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/namarri/Desktop/SeleniumFiles/poi-bin-3.11-20141221/poi-3.11/poi-ooxml-schemas-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/namarri/Desktop/SeleniumFiles/poi-bin-3.11-20141221/poi-3.11/poi-scratchpad-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/namarri/Desktop/SeleniumFiles/poi-bin-3.11-20141221/poi-3.11/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

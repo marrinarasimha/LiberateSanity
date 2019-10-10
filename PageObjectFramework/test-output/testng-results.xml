@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="120114" started-at="2019-10-07T05:59:54Z" finished-at="2019-10-07T06:01:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="120114" started-at="2019-10-07T05:59:54Z" finished-at="2019-10-07T06:01:55Z">
+      <class name="com.liberate.tests.MaintainDepositReasonTest">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.liberate.tests.MaintainDepositReasonTest@36d4b5c]" name="testSetUp" is-config="true" duration-ms="31244" started-at="2019-10-07T11:29:55Z" finished-at="2019-10-07T11:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testMaintainDepositReason(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.liberate.tests.MaintainDepositReasonTest@36d4b5c]" name="testMaintainDepositReason" duration-ms="36053" started-at="2019-10-07T11:30:26Z" data-provider="dataprovider" finished-at="2019-10-07T11:31:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1131]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testDP1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaintainDepositReason -->
+        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.liberate.tests.MaintainDepositReasonTest@36d4b5c]" name="testCleanUp" is-config="true" duration-ms="3947" started-at="2019-10-07T11:31:02Z" finished-at="2019-10-07T11:31:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.liberate.tests.MaintainDepositReasonTest@36d4b5c]" name="testSetUp" is-config="true" duration-ms="15591" started-at="2019-10-07T11:31:06Z" finished-at="2019-10-07T11:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="testMaintainDepositReason(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.liberate.tests.MaintainDepositReasonTest@36d4b5c]" name="testMaintainDepositReason" duration-ms="28855" started-at="2019-10-07T11:31:22Z" data-provider="dataprovider" finished-at="2019-10-07T11:31:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1141]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testDP2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaintainDepositReason -->
+        <test-method status="PASS" signature="testCleanUp()[pri:0, instance:com.liberate.tests.MaintainDepositReasonTest@36d4b5c]" name="testCleanUp" is-config="true" duration-ms="3998" started-at="2019-10-07T11:31:51Z" finished-at="2019-10-07T11:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanUp -->
+      </class> <!-- com.liberate.tests.MaintainDepositReasonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
