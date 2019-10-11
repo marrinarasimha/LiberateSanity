@@ -16,6 +16,7 @@ import com.liberate.pages.HomePage;
 import com.liberate.pages.LoginPage;
 import com.liberate.util.DataDrivenManager;
 import com.liberate.util.WebDriverManager;
+import com.sun.org.apache.bcel.internal.classfile.Method;
 
 public class TestBase {
 
@@ -29,7 +30,7 @@ Properties testconfig;
 		testconfig=new Properties();
 		testconfig.load(new FileInputStream("testconfig.properties"));
 		driver=WebDriverManager.createDriver(testconfig.getProperty("browser"));
-		driver.get(testconfig.getProperty("6.0URL2"));
+		driver.get(testconfig.getProperty("6.0URL1"));
 		
 		LoginPage loginpg=new LoginPage(driver);
 		loginpg.loginAs("libadmin", "Ic3cr34m!");
@@ -42,6 +43,14 @@ Properties testconfig;
 	{
 		Thread.sleep(3000);
 		WebDriverManager.quitDriver(driver);
+	}
+	
+	@DataProvider
+	public Object[][] dataprovider(java.lang.reflect.Method method)
+	{
+		DataDrivenManager ddm=new DataDrivenManager("C:\\Users\\namarri\\Desktop\\SeleniumFiles\\MasterTestDataFile.xlsx");
+		Object[][] TestData=ddm.getTestCaseDataSets("TestCaseDataSets", method.getName());
+		return TestData;
 	}
 	
 

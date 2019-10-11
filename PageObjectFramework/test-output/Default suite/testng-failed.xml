@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.liberate.tests.MaintainDepositReasonTest">
+      <class name="com.liberate.tests.testCreateLinePlant">
         <methods>
           <include name="testSetUp"/>
-          <include name="testMaintainDepositReason" invocation-numbers="0 1"/>
           <include name="testCleanUp"/>
+          <include name="testCreateLinePlant" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.liberate.tests.MaintainDepositReasonTest -->
+      </class> <!-- com.liberate.tests.testCreateLinePlant -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
