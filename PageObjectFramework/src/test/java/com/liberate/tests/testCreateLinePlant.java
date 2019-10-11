@@ -17,7 +17,7 @@ public class testCreateLinePlant extends TestBase {
 		mlp.createLinePlant(exchange,planttype,plantnum,status,district);
 		String actualmsg=mlp.SuccessMsg;
 		String expectedmsg="Operation Successfully Completed";
-		Assert.assertEquals(actualmsg, expectedmsg, "Error:Deposit reason creation failed");
+		Assert.assertEquals(actualmsg, expectedmsg, "Error:Deposit reason creation failesd");
 	}
 	
 	
