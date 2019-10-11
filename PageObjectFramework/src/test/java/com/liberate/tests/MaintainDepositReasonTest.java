@@ -20,12 +20,6 @@ public class MaintainDepositReasonTest extends TestBase {
 		Assert.assertEquals(actualmsg, expectedmsg, "Error:Deposit reason creation failed");
 	}
 	
-	@DataProvider
-	public Object[][] dataprovider()
-	{
-		DataDrivenManager ddm=new DataDrivenManager("C:\\Users\\namarri\\Desktop\\SeleniumFiles\\MasterTestDataFile.xlsx");
-		Object[][] TestData=ddm.getTestCaseDataSets("TestCaseDataSets", "MaintainDepositReasonTest");
-		return TestData;
-	}
+	
 
 }

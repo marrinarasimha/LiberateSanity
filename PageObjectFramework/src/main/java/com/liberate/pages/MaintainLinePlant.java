@@ -10,7 +10,7 @@ public class MaintainLinePlant extends PageBase {
 		super(driver);
 		
 	}
-	
+	public String SuccessMsg=null;
 	@FindBy(linkText="Networks")
 	WebElement Networks;
 	@FindBy(linkText="Network Maintenance")
@@ -29,19 +29,24 @@ public class MaintainLinePlant extends PageBase {
 	WebElement selectDistrict;
 	@FindBy(xpath="//input[@value='Accept']")
 	WebElement AcceptButton;
+	@FindBy(xpath="//span[contains(text(),'Operation Successfully Completed')]")
+	WebElement msgtxt;
+	@FindBy(xpath="//input[@value='OK']")
+	WebElement OkButton;
 	
-	public MaintainLinePlant createLinePlant()
+	public MaintainLinePlant createLinePlant(String exchange, String planttype, String plantnum, String status, String district)
 	{
 		this.Networks.click();
 		this.NetworkMaintenance.click();
-		this.selectExchangeArea.sendKeys("BOT");
-		this.selectPlantType.sendKeys("DP");
-		this.enterPlantNumber.sendKeys("1133");
+		this.selectExchangeArea.sendKeys(exchange);
+		this.selectPlantType.sendKeys(planttype);
+		this.enterPlantNumber.sendKeys(plantnum);
 		this.NewButton.click();
-		this.selectStatus.sendKeys("S");
-		this.selectDistrict.sendKeys("5");
+		this.selectStatus.sendKeys(status);
+		this.selectDistrict.sendKeys(district);
 		this.AcceptButton.click();
-		
+		SuccessMsg=this.msgtxt.getText();
+		this.OkButton.click();
 		return new MaintainLinePlant(driver);
 		
 	}
